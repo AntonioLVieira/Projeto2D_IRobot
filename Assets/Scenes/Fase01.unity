@@ -11942,7 +11942,7 @@ MonoBehaviour:
   proximaFase: Fase02
   MenuInicial: MenuPrincipal
   scoreText: {fileID: 111357878}
-  scoreNecessario: 7
+  scoreNecessario: 6
 --- !u!4 &1550945333
 Transform:
   m_ObjectHideFlags: 0
