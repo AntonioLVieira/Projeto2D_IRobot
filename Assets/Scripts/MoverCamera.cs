@@ -13,7 +13,7 @@ public class MoverCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Screen.SetResolution(640, 360, true);
+        Screen.SetResolution(640, 360, false);
     }
 
     // Update is called once per frame
