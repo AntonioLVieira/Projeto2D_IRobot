@@ -11,6 +11,7 @@ public class MenuInicial : MonoBehaviour
     {
         Screen.SetResolution(640, 360, true);
     }
+
     public void IniciarJogo()
     {
         SceneManager.LoadScene(PrimeiraCena);
