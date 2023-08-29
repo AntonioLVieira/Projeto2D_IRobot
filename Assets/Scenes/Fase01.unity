@@ -9121,8 +9121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330247b393d3f834cbfdd0eb7e1ca734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeCamara: 6
-  desvioEmY: 0
+  velocidadeCamara: 2
+  desvioEmY: 1
   desvioEmX: 0
   alvo: {fileID: 1976262900}
 --- !u!1 &538282868
