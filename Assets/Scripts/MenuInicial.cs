@@ -9,7 +9,7 @@ public class MenuInicial : MonoBehaviour
     
     void Start()
     {
-        Screen.SetResolution(640, 360, false);
+        Screen.SetResolution(640, 360, true);
     }
     public void IniciarJogo()
     {
