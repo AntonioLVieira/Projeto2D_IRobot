@@ -623,8 +623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &90810459
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1001,8 +1001,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &263987349
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1183,8 +1183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &312552791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1365,8 +1365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &351032565
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8953,8 +8953,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &495071646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9125,10 +9125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330247b393d3f834cbfdd0eb7e1ca734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeCamara: 6
-  desvioEmY: 1
-  desvioEmX: 0
   alvo: {fileID: 1976262900}
+  velocidadeCamara: 6
 --- !u!1 &538282868
 GameObject:
   m_ObjectHideFlags: 0
@@ -9874,7 +9872,6 @@ GameObject:
   - component: {fileID: 1041134838}
   - component: {fileID: 1041134840}
   - component: {fileID: 1041134839}
-  - component: {fileID: 1041134841}
   m_Layer: 6
   m_Name: Tilemap Plataformas
   m_TagString: Untagged
@@ -11157,18 +11154,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1041134841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041134834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dc4925acb6f01b4aa8cd82a1a50011c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1138401415
 GameObject:
   m_ObjectHideFlags: 0
@@ -11460,8 +11445,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &1329287651
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11880,8 +11865,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &1544737115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11963,11 +11948,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 924ac4b69e8acd844aea020cddea7f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 111357878}
   tempoRecarregarCena: 1
   tempoRecarregarNovaCena: 0.5
   proximaFase: Fase02
   MenuInicial: MenuPrincipal
-  scoreText: {fileID: 111357878}
   scoreNecessario: 6
 --- !u!4 &1550945333
 Transform:
@@ -12704,8 +12689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &1799310836
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13106,8 +13091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &1917215490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13288,8 +13273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54998d055f276ff4685d9f0152a744c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
+  velocidade: 10
 --- !u!212 &1939082535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13543,9 +13528,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   efeitoExplosao: {fileID: 635893592122541184, guid: d79dbfc7cc9c6d048924494fe3f95233, type: 3}
-  tempoDeDestruicao: 1.5
   FullHealthBar: {fileID: 2012024596}
   EmptyHealthBar: {fileID: 627027618}
+  tempoDeDestruicao: 1.5
 --- !u!114 &1976262909
 MonoBehaviour:
   m_ObjectHideFlags: 0
