@@ -811,6 +811,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 706353185717071129, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 706353185717071131, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Name
       value: Picos (7)
@@ -9228,6 +9232,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 706353185717071129, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 706353185717071131, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Name
       value: Picos (8)
@@ -9789,6 +9797,10 @@ PrefabInstance:
     - target: {fileID: 706353185717071128, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Offset.y
       value: -0.019534081
+      objectReference: {fileID: 0}
+    - target: {fileID: 706353185717071129, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 706353185717071131, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Name
@@ -12430,6 +12442,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.0004298687
       objectReference: {fileID: 0}
+    - target: {fileID: 706353185717071129, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 706353185717071131, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Name
       value: Picos (9)
@@ -12899,6 +12915,10 @@ PrefabInstance:
     - target: {fileID: 706353185717071128, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Offset.y
       value: -0.01771456
+      objectReference: {fileID: 0}
+    - target: {fileID: 706353185717071129, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 706353185717071131, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Name
@@ -13586,6 +13606,10 @@ PrefabInstance:
     - target: {fileID: 706353185717071128, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Offset.y
       value: 0.0004775524
+      objectReference: {fileID: 0}
+    - target: {fileID: 706353185717071129, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 706353185717071131, guid: 5fad32a2b67b39e4ca265ad0b623ed53, type: 3}
       propertyPath: m_Name
