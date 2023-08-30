@@ -30,8 +30,8 @@ public class MovimentoDoJogador : MonoBehaviour
     public Transform verificadorDeParede;
 
     [Header ("Verificações")]
-
     public bool JogadorVivo;
+
     void Awake()
     {
         oRigidbody2D = GetComponent<Rigidbody2D>();
@@ -46,6 +46,7 @@ public class MovimentoDoJogador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Verifica se o jogador está vivo
         if(JogadorVivo == true)
         {
             MovimentarJogador();
@@ -141,10 +142,14 @@ public class MovimentoDoJogador : MonoBehaviour
 
     public void ImpulsoJogador(float forcaImpulso)
     {
+        // Define a velocidade
         oRigidbody2D.velocity = new Vector2(oRigidbody2D.velocity.x, 0f);
+
+        // Adiciona o Impulso
         oRigidbody2D.AddForce(new Vector2(0f, forcaImpulso), ForceMode2D.Impulse);
     }
 
+    // É chamado quando o jogador puder atacar
     public bool PodeAtacar()
     {
         return true;

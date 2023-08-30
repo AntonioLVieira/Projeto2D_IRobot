@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Disparo_Inimigo : MonoBehaviour
 {
+    [Header ("Referências")]
     public GameObject bala;
     public Transform balaPosicao;
     private GameObject Jogador;
 
+    [Header ("Valores")]
     private float timer;    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,15 +23,21 @@ public class Disparo_Inimigo : MonoBehaviour
     {
         timer += Time.deltaTime;
 
+        // Calcula a distância entre o Inimigo e o Jogador
         float distancia = Vector2.Distance(transform.position, Jogador.transform.position);
-
+        
+        // Vê se o jogador está a menos de 7 unidades de distância
         if (distancia < 7)
         {
             timer += Time.deltaTime;
 
+            // Vê se o tempo passado é maior que 4 segundos
             if(timer > 4)
             {
+                // Se for maior, o timer dá "reset"
                 timer = 0; 
+
+                // E o Inimigo dispara
                 Shoot();    
             }
         }
@@ -39,6 +48,7 @@ public class Disparo_Inimigo : MonoBehaviour
 
     void Shoot()
     {
+        // Instancia uma bala na posição correta
         Instantiate(bala, balaPosicao.position, Quaternion.identity); 
     }
 }

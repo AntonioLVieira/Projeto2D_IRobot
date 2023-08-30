@@ -12,6 +12,7 @@ public class Inimigos : MonoBehaviour
     public float velocidadeInimigo;
     public float ultimaPosicaoX;
 
+    [Header ("Verificações")]
     public bool inimigoVivo;
 
     void Start()

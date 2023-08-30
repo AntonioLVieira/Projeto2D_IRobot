@@ -18,23 +18,19 @@ public class VidaInimigo : MonoBehaviour
         oAnimator = GetComponent<Animator>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-            
-    }
-
+    // Método que trata da morte do Inimigo
     public void FerirInimigo()
     {
+        // toca o som do dano
         ManagerDeSom.instance.somDeDano.Play();
+
+        // Procura a variável do Inimigo vivo mata-o
         FindObjectOfType<Inimigos>().inimigoVivo = false;
+
+        // coloca a velocidade do Inimigo a 0
         oRigidbody2D.velocity = new Vector2(0f, 0f);
+
+        // Destrói o Inimigo
         Destroy(this.gameObject);
     }
 
